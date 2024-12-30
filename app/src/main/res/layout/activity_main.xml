@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="18dp"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:id="@+id/enable_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enable"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+    <CheckBox
+        android:id="@+id/visible_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visible"
+        android:layout_alignParentRight="true"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/name_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/search_bt"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:padding="5dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/img" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_bt"
+        android:layout_marginTop="10dp"/>
+
+
+</RelativeLayout>
